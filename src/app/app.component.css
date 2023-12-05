@@ -43,95 +43,19 @@
 
 .content.theme-white {
   background-color: #fff;
-  .content-box {
-    background-color: #ddd;
-    h3,
-    h5 {
-      color: #222;
-    }
-    p {
-      color: #000;
-    }
-  }
 }
 .content.theme-blue {
   background-color: #bec7e7;
-  .content-box {
-    background-color: #d8def4;
-    h3,
-    h5 {
-      color: #1e41c1;
-    }
-    p {
-      color: #000;
-    }
-  }
 }
 .content.theme-orange {
   background-color: #f4c9b7;
-  .content-box {
-    background-color: #f4dfd6;
-    h3,
-    h5 {
-      color: #b64b1e;
-    }
-    p {
-      color: #000;
-    }
-  }
 }
 .content.theme-purple {
   background-color: #d0b7f4;
-  .content-box {
-    background-color: #ecdfff;
-    h3,
-    h5 {
-      color: #7852ae;
-    }
-    p {
-      color: #000;
-    }
-  }
 }
 .content.theme-green {
   background-color: #c3e3c1;
-  .content-box {
-    background-color: #e2f6e1;
-    h3,
-    h5 {
-      color: #5faf3b;
-    }
-    p {
-      color: #000;
-    }
-  }
 }
 .content.theme-black {
   background-color: #5c5c5c;
-  .content-box {
-    background-color: #333;
-    h3,
-    h5 {
-      color: #ffffff;
-    }
-    p {
-      color: #ccc;
-    }
-  }
-}
-
-.content-box {
-  color: #222;
-  border-radius: 8px;
-  padding: 30px 30px 40px 30px;
-  h3 {
-    line-height: 1.5;
-    margin: 0 0 20px 0;
-    font-size: 24px;
-  }
-  h5 {
-    line-height: 1.2;
-    margin: 0;
-    font-size: 20px;
-  }
 }
