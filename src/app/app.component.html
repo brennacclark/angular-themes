@@ -1,5 +1,9 @@
 <div class="content theme {{ storedTheme }}" role="main">
+
+    <!-- Printing theme for debugging -->
   {{ storedTheme }}
+  
+  <!-- Theme Toggle -->
   <div class="theme-options">
     <div
       id="theme-white"
@@ -33,5 +37,6 @@
     ></div>
   </div>
 
+    <!-- We require theme to be passed to the child component - See @Input -->
   <app-content-box [theme]="storedTheme"></app-content-box>
 </div>

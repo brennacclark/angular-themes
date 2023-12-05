@@ -6,6 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './content-box.component.css'
 })
 export class ContentBoxComponent implements OnInit{
+
+  // We require theme to be passed from the parent
   @Input() theme: string = "theme-light";
 
   constructor() { }
