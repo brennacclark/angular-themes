@@ -1,0 +1,8 @@
+/* White Theme */
+:root {
+  --color-white: #eee;
+  --color-white-primary-background: #fff;
+  --color-white-secondary-background: #ddd;
+  --color-white-header-text: var(--text-color-default);
+  --color-white-p-text: var(--text-color-black);
+}

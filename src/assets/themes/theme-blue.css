@@ -1,0 +1,8 @@
+/* Blue Theme */
+:root {
+  --color-blue: #1e41c1;
+  --color-blue-primary-background: #bec7e7;
+  --color-blue-secondary-background: #d8def4;
+  --color-blue-header-text: #1e41c1;
+  --color-blue-p-text: var(--text-color-black);
+}

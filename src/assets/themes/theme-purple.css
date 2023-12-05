@@ -1,0 +1,8 @@
+/* Purple Theme */
+:root {
+  --color-purple: #7852ae;
+  --color-purple-primary-background: #d0b7f4;
+  --color-purple-secondary-background: #ecdfff;
+  --color-purple-header-text: #7852ae;
+  --color-purple-p-text: (var(--text-color-black));
+}

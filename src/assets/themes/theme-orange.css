@@ -1,0 +1,8 @@
+/* Orange Theme */
+:root {
+  --color-orange: #b64b1e;
+  --color-orange-primary-background: #f4c9b7;
+  --color-orange-secondary-background: #f4dfd6;
+  --color-orange-header-text: #b64b1e;
+  --color-orange-p-text: (var(--text-color-black));
+}

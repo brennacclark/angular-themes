@@ -1,0 +1,8 @@
+/* Green Theme */
+:root {
+  --color-green: #5faf3b;
+  --color-green-primary-background: #c3e3c1;
+  --color-green-secondary-background: #e2f6e1;
+  --color-green-header-text: #5faf3b;
+  --color-green-p-text: (var(--text-color-black));
+}

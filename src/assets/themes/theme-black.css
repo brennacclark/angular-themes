@@ -1,0 +1,8 @@
+/* Black Theme */
+:root {
+  --color-black: #000;
+  --color-black-primary-background: #5c5c5c;
+  --color-black-secondary-background: #333;
+  --color-black-header-text: (var(--text-color-white));
+  --color-black-p-text: (var(--text-secondary-color-white));
+}
