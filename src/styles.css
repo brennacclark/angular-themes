@@ -1,5 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Define color variables */
+:root {
+  --border-color: #000;
+  --inactive-opacity: 0.5;
+  --active-opacity: 1;
+
+  /* Text Variables */
+  --text-color-default: #222;
+  --text-color-black: #000;
+  --text-color-white: #ffffff;
+  --text-secondary-color-white: #ccc;
+
+  /* White Theme */
+  --color-white: #eee;
+  --color-white-primary-background: #fff;
+  --color-white-secondary-background: #ddd;
+  --color-white-header-text: (var(--text-color-default));
+  --color-white-p-text: (var(--text-color-black));
+
+  /* Blue Theme */
+  --color-blue: #1e41c1;
+  --color-blue-primary-background: #bec7e7;
+  --color-blue-secondary-background: #d8def4;
+  --color-blue-header-text: #1e41c1;
+  --color-blue-p-text: (var(--text-color-black));
+
+  /* Orange Theme */
+  --color-orange: #b64b1e;
+  --color-orange-primary-background: #f4c9b7;
+  --color-orange-secondary-background: #f4dfd6;
+  --color-orange-header-text: #b64b1e;
+  --color-orange-p-text: (var(--text-color-black));
+
+  /* Purple Theme */
+  --color-purple: #7852ae;
+  --color-purple-primary-background: #d0b7f4;
+  --color-purple-secondary-background: #ecdfff;
+  --color-purple-header-text: #7852ae;
+  --color-purple-p-text: (var(--text-color-black));
+
+  /* Green Theme */
+  --color-green: #5faf3b;
+  --color-green-primary-background: #c3e3c1;
+  --color-green-secondary-background: #e2f6e1;
+  --color-green-header-text: #5faf3b;
+  --color-green-p-text: (var(--text-color-black));
+
+  /* Black Theme */
+  --color-black: #000;
+  --color-black-primary-background: #5c5c5c;
+  --color-black-secondary-background: #333;
+  --color-black-header-text: (var(--text-color-white));
+  --color-black-p-text: (var(--text-secondary-color-white));
+}
+
 html {
   height: 100%;
 }

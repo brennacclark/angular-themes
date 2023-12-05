@@ -15,7 +15,7 @@
 }
 
 .content-box.theme-white {
-  background-color: #ddd;
+  background-color: var(--color-white-secondary-background);
   h3,
   h5 {
     color: #222;
@@ -26,7 +26,7 @@
 }
 
 .content-box.theme-blue {
-  background-color: #d8def4;
+  background-color: var(--color-blue-secondary-background);
   h3,
   h5 {
     color: #1e41c1;
@@ -37,7 +37,7 @@
 }
 
 .content-box.theme-orange {
-  background-color: #f4dfd6;
+  background-color: var(--color-orange-secondary-background);
   h3,
   h5 {
     color: #b64b1e;
@@ -48,7 +48,7 @@
 }
 
 .content-box.theme-purple {
-  background-color: #ecdfff;
+  background-color: var(--color-purple-secondary-background);
   h3,
   h5 {
     color: #7852ae;
@@ -57,9 +57,8 @@
     color: #000;
   }
 }
-
 .content-box.theme-green {
-  background-color: #e2f6e1;
+  background-color: var(--color-green-secondary-background);
   h3,
   h5 {
     color: #5faf3b;
@@ -68,9 +67,8 @@
     color: #000;
   }
 }
-
 .content-box.theme-black {
-  background-color: #333;
+  background-color: var(--color-black-secondary-background);
   h3,
   h5 {
     color: #ffffff;
